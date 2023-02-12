@@ -12,9 +12,9 @@ Data Stealer written in **Python**
 
 ### Requirements
 
-* Newest [Python](https://www.python.org) version.
-* The code in this github.
-* Nothing else.
+* Newest [Python](https://www.python.org) version
+* The code in this github
+* Nothing else
 
 ### Installing
 
@@ -32,6 +32,6 @@ Data Stealer written in **Python**
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 *enjoy the script fuggas*
