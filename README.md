@@ -14,7 +14,7 @@ Data Stealer written in **Python**
 ### Requirements
 
 * Newest [Python](https://www.python.org) version
-* The code in this github
+* The code in this repository
 * Nothing else
 
 ### Installing
