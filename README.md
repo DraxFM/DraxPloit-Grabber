@@ -8,8 +8,8 @@ Data Stealer written in **Python**
 - Steals IP, City etc.
 - Roblox cookie stealer
 - Startup infection
+- Absolutely no popups!
 - More to be added!
-- No pupups (not even a black window closing a short second later)!!!
 
 ### Requirements
 
