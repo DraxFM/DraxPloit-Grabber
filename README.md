@@ -9,6 +9,7 @@ Data Stealer written in **Python**
 - Roblox cookie stealer
 - Startup infection
 - More to be added!
+- No pupups (not even a black window closing a short second later)!!!
 
 ### Requirements
 
