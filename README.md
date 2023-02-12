@@ -8,13 +8,13 @@ Data Stealer written in Python
 - Steals IP, City etc.
 - Roblox cookie stealer
 - Startup infection
-(More to be added!)
+- More to be added!
 
 ### Requirements
 
-- Newest [Python](https://www.python.org) version.
-- The code in this github.
-Nothing else.
+* Newest [Python](https://www.python.org) version.
+* The code in this github.
+* Nothing else.
 
 ### Installing
 
