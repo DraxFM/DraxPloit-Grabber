@@ -1,6 +1,6 @@
 # DraxPloit Grabber
 
-Data Stealer written in Python
+Data Stealer written in **Python**
 
 ## Features
 
@@ -33,3 +33,5 @@ Data Stealer written in Python
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+*enjoy the script fuggas*
