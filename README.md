@@ -35,8 +35,6 @@ Data Stealer written in **Python**
 5. Open DraxPloit Grabber and paste the webhook URL
 6. Customize your file and finish
 
-<img src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/f253a7d09b602f4.png" width="150" height=auto>
-
 ## Authors
 
 * **Drax** - *DraxPloit Grabber* - [Drax](https://github.com/DraxFM)
@@ -48,3 +46,5 @@ Data Stealer written in **Python**
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 *enjoy the script fuggas*
+
+<img src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/f253a7d09b602f4.png" width="150" height=auto>
