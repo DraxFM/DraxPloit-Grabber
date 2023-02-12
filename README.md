@@ -35,7 +35,7 @@ Data Stealer written in **Python**
 5. Open DraxPloit Grabber and paste the webhook URL
 6. Customize your file and finish
 
-![Image couldn't be loaded](https://github.com/DraxFM/DraxPloit-Grabber](https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/f253a7d09b602f4.png)
+![Image couldn't be loaded](https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/f253a7d09b602f4.png)
 
 ## Authors
 
