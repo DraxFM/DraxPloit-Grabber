@@ -36,9 +36,9 @@ Data Stealer written in **Python**
 6. Customize your file further
 7. Your file is ready for usage!
 
-‘‘‘diff
-- **WARNING: This program was developed for educational purposes only, therefore I am not liable for any damage done. Use at your own risk!**
-‘‘‘
+```diff
+-**WARNING: This program was developed for educational purposes only, therefore I am not liable for any damage done. Use at your own risk!**
+```
 
 ## Authors
 
