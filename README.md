@@ -41,6 +41,8 @@ Data Stealer written in **Python**
 
 **Discord: Drax#5934**
 
+Inspiration to start with python exploiting: [**KSCHdsc**](https://github.com/KSCHdsc)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
