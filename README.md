@@ -36,6 +36,8 @@ Data Stealer written in **Python**
 6. Customize your file further
 7. Your file is ready for usage!
 
+**WARNING: This program was developed for educational purposes only, therefore I am not liable for any damage done. Use at your own risk!**
+
 ## Authors
 
 * [**Drax**](https://github.com/DraxFM) - *DraxPloit Grabber*
@@ -45,6 +47,8 @@ Data Stealer written in **Python**
 Join the [**Discord**](https://discord.gg/sEXECdC3Et) server!
 
 Inspiration to start with python exploiting: [**KSCHdsc**](https://github.com/KSCHdsc)
+
+**WARNING: This program was developed for educational purposes only, therefore I am not liable for any damage or other actions done! Use at your own risk!**
 
 ## License
 
