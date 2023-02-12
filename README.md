@@ -4,10 +4,10 @@ Data Stealer written in Python
 
 ## Features
 
-Builder (You don't need any code knowledge)
-steals IP, City etc.
-Roblox cookie stealer
-Startup infection
+- Builder (You don't need any code knowledge)
+- Steals IP, City etc.
+- Roblox cookie stealer
+- Startup infection
 (More to be added!)
 
 ### Requirements
