@@ -1,0 +1,7 @@
+pyinstaller>=5.0
+discord_webhook
+alive-progress
+requests
+pyinstaller
+colorama
+browser_cookie3
