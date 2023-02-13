@@ -53,6 +53,13 @@ Join the [**Discord**](https://discord.gg/sEXECdC3Et) server!
 
 Inspiration to start with python exploiting: [**KSCHdsc**](https://github.com/KSCHdsc)
 
+## Changelog
+
+* 02/13/2023: Added Ascii-Art in Builder
+* 02/12/2023: Added startup infection
+* 02/12/2023: Fixed compilation process to exe
+* 02/12/2023: Released program
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
