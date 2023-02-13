@@ -2,6 +2,8 @@
 
 Data Stealer written in **Python**
 
+*enjoy the script fuggas*
+
 ## Features
 
 - Builder (You don't need any code knowledge)
@@ -63,7 +65,3 @@ Inspiration to start with python exploiting: [**KSCHdsc**](https://github.com/KS
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-*enjoy the script fuggas*
-
-<img src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/f253a7d09b602f4.png" width="150" height=auto>
