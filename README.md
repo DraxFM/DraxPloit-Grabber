@@ -42,7 +42,7 @@ Data Stealer written in **Python**
 
 ```diff
 - WARNING: This program was developed for educational purposes only,
-- therefore I am not liable for any damage done. Use at your own risk!
+- therefore I am not liable for any damage done. Use at your own risk! See ([LICENSE.md](LICENSE.md))
 ```
 
 ## Authors
