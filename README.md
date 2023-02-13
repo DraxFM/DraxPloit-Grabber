@@ -26,7 +26,7 @@ Data Stealer written in **Python**
 5. Configure your file
 6. Enjoy!
 
-## Usage
+### Usage
 
 1. Create a Discord Server and go to server settings
 2. Go to "Integrations" and click on "Create Webhook"
