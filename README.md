@@ -49,7 +49,7 @@ Data Stealer written in **Python**
 
 **Discord: Drax#5934**
 
-Join the [**Discord**](https://discord.gg/sEXECdC3Et) server!
+Need help? Join the [**Discord**](https://discord.gg/sEXECdC3Et)!
 
 Inspiration to start with python exploiting: [**KSCHdsc**](https://github.com/KSCHdsc)
 
