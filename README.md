@@ -36,7 +36,7 @@ Data Stealer written in **Python**
 6. Customize your file further
 7. Your file is ready for usage!
 
-<img src="https://i.ibb.co/f4Twmvf/Screenshot-9.png" width="325" height=auto>
+<img src="https://i.ibb.co/f4Twmvf/Screenshot-9.png" width="500" height=auto>
 
 ```diff
 - WARNING: This program was developed for educational purposes only,
