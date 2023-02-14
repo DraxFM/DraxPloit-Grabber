@@ -6,7 +6,7 @@ Data Stealer written in **Python**
 
 ## Features
 
-- Builder (You don't need any code knowledge)
+- Builder (does all the coding for you)
 - Steals IP, City etc.
 - Roblox cookie stealer
 - Startup infection
