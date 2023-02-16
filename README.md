@@ -57,7 +57,7 @@ Inspiration to start with python exploiting: [**KSCHdsc**](https://github.com/KS
 
 ## Changelog
 
-02/13/2023: Added Windows-Key, Windows-Version and UUID to information logger
+02/13/2023: Added Windows-Key, Windows-Version and UUID to information logger  
 02/13/2023: Added Ascii-Art in Builder  
 02/12/2023: Added startup infection  
 02/12/2023: Fixed compilation process to exe  
