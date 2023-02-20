@@ -57,7 +57,7 @@ Inspiration to start with python exploiting: [**KSCHdsc**](https://github.com/KS
 
 ## Changelog
 
-02/20/2023: Added profile picture to webhook
+02/20/2023: Added profile picture to webhook  
 02/13/2023: Added Windows-Key, Windows-Version and UUID to information logger  
 02/13/2023: Added Ascii-Art in Builder  
 02/12/2023: Added startup infection  
