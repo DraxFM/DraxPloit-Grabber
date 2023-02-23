@@ -10,7 +10,7 @@ Data Stealer written in **Python**
 - Steals IP, City etc.
 - Roblox cookie stealer
 - Startup infection
-- Absolutely no popups!
+- No popups in .exe file!
 - More to be added!
 
 ### Requirements
