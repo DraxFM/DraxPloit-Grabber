@@ -17,7 +17,6 @@ Data Stealer written in **Python**
 
 * Newest [Python](https://www.python.org) version
 * The code in this [Repository](https://github.com/DraxFM/DraxPloit-Grabber/archive/refs/heads/main.zip)
-* Nothing else /--\
 
 ### Installing
 
