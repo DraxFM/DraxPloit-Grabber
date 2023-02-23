@@ -5,3 +5,5 @@ requests
 pyinstaller
 colorama
 browser_cookie3
+termcolor
+pyfiglet
