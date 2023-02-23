@@ -17,7 +17,7 @@ Data Stealer written in **Python**
 
 * Newest [Python](https://www.python.org) version
 * The code in this [Repository](https://github.com/DraxFM/DraxPloit-Grabber/archive/refs/heads/main.zip)
-* Nothing else
+* Nothing else /--\
 
 ### Installing
 
@@ -49,7 +49,7 @@ Data Stealer written in **Python**
 
 * [**Drax**](https://github.com/DraxFM) - *DraxPloit Grabber*
 
-**Discord: Drax#5934**
+**Discord: [Drax#5934](https://discord.com/users/654343206275907585)**
 
 Need help? Join the [**Discord**](https://discord.gg/sEXECdC3Et)!
 
