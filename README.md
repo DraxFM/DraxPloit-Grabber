@@ -40,11 +40,6 @@ Data Stealer written in **Python**
 
 <img src="https://i.ibb.co/f4Twmvf/Screenshot-9.png" width="500" height=auto>
 
-```diff
-- WARNING: This program was developed for educational purposes only,
-- therefore I am not liable for any damage done. Use at your own risk!
-```
-
 ## Authors
 
 * [**Drax**](https://github.com/DraxFM) - *DraxPloit Grabber*
