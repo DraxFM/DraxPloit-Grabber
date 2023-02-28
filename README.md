@@ -54,7 +54,7 @@ Inspiration to start with python exploiting: [**KSCHdsc**](https://github.com/KS
 
 ## Changelog
 
-02/28/2023: Added badass token grabber supporting multiple browsers
+02/28/2023: Added badass token grabber supporting multiple browsers  
 02/23/2023: Fixed fatal error  
 02/20/2023: Added profile picture to webhook  
 02/13/2023: Added Windows-Key, Windows-Version and UUID to information logger  
