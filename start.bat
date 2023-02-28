@@ -1,4 +1,4 @@
 @echo off
-title DraxPloit Builder BETA v0.9
+title DraxPloit Builder v1.0
 python builder.py
 pause
