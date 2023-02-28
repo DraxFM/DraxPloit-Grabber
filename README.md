@@ -1,8 +1,10 @@
-# DraxPloit Grabber
+# DraxPloit Grabber v1.0
 
 Data Stealer written in **Python**
 
 *enjoy the script fuggas*
+
+Finally version 1.0  
 
 ## Features
 
