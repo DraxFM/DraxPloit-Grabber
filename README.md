@@ -10,7 +10,7 @@ Finally version 1.0
 
 - Builder (does all the coding for you)
 - Steals IP, City etc.
-- [NEW] Grabs Discord Token
+- [**NEW**] Grabs Discord Token
 - Roblox cookie stealer
 - Startup infection
 - No popups in .exe file!
