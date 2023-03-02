@@ -43,6 +43,7 @@ class Builder:
             else:
                 pass
         else:
+            self.compy = 'no'
             pass
 
         self.mk_file(self.filename, self.webhook)
