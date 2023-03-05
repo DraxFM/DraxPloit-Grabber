@@ -44,7 +44,7 @@ Data Stealer written in **Python**
 ### Explanation
 **If you are new to exploiting, this might be in your interest**:  
 When running the "setup.bat" file, a black window opens. Don't worry, this is just normal procedure even though it may look malicious at first glance.  
-The same with "start.bat". Creating a software which has actual UI is really hard and honestly, I am too lazy to do that. So that is why you configure your file in a black window (as seen in the picture above)  
+The same with "start.bat". Creating a software which has actual UI is really hard and honestly I am too lazy to do that. So that is why you configure your file in a black window (as seen in the picture above)  
 You also might find the "upx.exe" file in the "upx" folder suspicious. But basically UPX (Ultimate Packager for Executables) is a well-known program. If you don't trust the one that's already in this repositry feel free to install the original one from their own website and replace it with the already existing one.  
 
 ## Authors
