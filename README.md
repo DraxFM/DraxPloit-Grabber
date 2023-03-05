@@ -59,6 +59,7 @@ Inspiration to start with python exploiting: [**KSCHdsc**](https://github.com/KS
 
 ## Changelog
 
+03/05/2023: Added Device Name and Device User logging  
 03/05/2023: Big update: lots of bugfixes, UI changes, Fake error message system added  
 03/05/2023: Minor bugfixes, optimization + new webhook test feature  
 02/28/2023: Added badass token grabber supporting multiple browsers  
