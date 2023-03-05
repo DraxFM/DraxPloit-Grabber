@@ -40,9 +40,9 @@ class Builder:
 
         self.compy = input(f'[{Fore.GREEN}FEATURE{Fore.RESET}] Compile file as executable (.exe)? (yes/no): ')
 
-        if self.compy == 'yes':
+        if self.compy.lower() == 'yes' or self.compy.lower() == 'y':
             self.icon = input(f'[{Fore.GREEN}FEATURE{Fore.RESET}] Add icon to exe? (yes/no): ')
-            if self.icon == 'yes':
+            if self.icon.lower() == 'yes' or self.icon.lower() == 'y':
                 self.icon_exe()
             else:
                 pass
