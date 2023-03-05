@@ -35,14 +35,25 @@ class Builder:
         else:
             self.startup = "no"
 
-        
+        self.fakeerror = input(f'[{Fore.GREEN}FEATURE{Fore.RESET}] Add fake error? (yes/no): ')
+        if self.fakeerror.lower() == 'y' or self.fakeerror.lower() == 'yes':
+            self.fakeerror = "yes"
+            
+            self.fakeerror2 = input(f'  [{Fore.GREEN}FEATURE{Fore.RESET}] Add custom error message? (yes/no): ')
+            if self.fakeerror2.lower() == 'y' or self.fakeerror2.lower() == 'yes':
+                self.fakeerrorcustom = input(f'    [{Fore.GREEN}FEATURE{Fore.RESET}] Enter custom error message: ')
+            else:
+                self.fakeerrorcustom = "%fake_error_text%"
+        else:
+            self.fakeerror = "no"
+            self.fakeerrorcustom = "%fake_error_text%"
         
 
-        self.compy = input(f'[{Fore.GREEN}FEATURE{Fore.RESET}] Compile file as executable (.exe)? (yes/no): ')
+        self.compy = input(f'\n[{Fore.GREEN}FEATURE{Fore.RESET}] Compile file as executable (.exe)? (yes/no): ')
 
         if self.compy.lower() == 'yes' or self.compy.lower() == 'y':
             self.compy = 'yes'
-            self.icon = input(f'[{Fore.GREEN}FEATURE{Fore.RESET}] Add icon to exe? (yes/no): ')
+            self.icon = input(f'  [{Fore.GREEN}FEATURE{Fore.RESET}] Add icon to exe? (yes/no): ')
             if self.icon.lower() == 'yes' or self.icon.lower() == 'y':
                 self.icon = 'yes'
                 self.icon_exe()
@@ -104,7 +115,7 @@ class Builder:
                "green", attrs=["bold"])
 
     def icon_exe(self):
-        self.icon_name = input(f'[{Fore.GREEN}FEATURE{Fore.RESET}] Enter the name of the icon: ')
+        self.icon_name = input(f'    [{Fore.GREEN}FEATURE{Fore.RESET}] Enter the name of the icon: ')
 
         if os.path.isfile(f"./{self.icon_name}"):
             pass
@@ -141,7 +152,9 @@ class Builder:
 
         with open(f"{filename}.py", "w", encoding="utf-8") as f:
             f.write(code.replace('%WEBHOOK_HERE%', webhook)
-                    .replace("%_startup_enabled%", str(self.startup)))
+                    .replace("%_startup_enabled%", str(self.startup))
+                    .replace("%fake_error_enabled%", str(self.fakeerror))
+                    .replace("%fake_error_text%", str(self.fakeerrorcustom)))
 
         sleep(2)
         print(f'{Fore.GREEN}File code is built{Fore.RESET}')
