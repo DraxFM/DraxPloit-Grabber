@@ -1,10 +1,8 @@
-# DraxPloit Grabber v1.0
+# DraxPloit Grabber v1.12
 
 Data Stealer written in **Python**
 
 *enjoy the script fuggas*
-
-Finally version 1.0  
 
 ## Features
 
@@ -54,6 +52,7 @@ Inspiration to start with python exploiting: [**KSCHdsc**](https://github.com/KS
 
 ## Changelog
 
+03/05/2023: Minor bugfixes, optimization + new webhook test feature
 02/28/2023: Added badass token grabber supporting multiple browsers  
 02/23/2023: Fixed fatal error  
 02/20/2023: Added profile picture to webhook  
