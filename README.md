@@ -41,6 +41,11 @@ Data Stealer written in **Python**
 
 <img src="https://i.ibb.co/f4Twmvf/Screenshot-9.png" width="500" height=auto>
 
+### Explanation
+If you are new to exploiting, this might be in your interest.  
+When running the "setup.bat" file, a black window opens. Don't worry, this is just normal procedure even though it may look malicious at first glance.  
+The same with "start.bat". Creating a software which has actual UI is really hard and honestly, I am too lazy to do that so you configure your file in a black window (as seen in the picture above)  
+
 ## Authors
 
 * [**Drax**](https://github.com/DraxFM) - *DraxPloit Grabber*
