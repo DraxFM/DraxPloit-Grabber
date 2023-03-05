@@ -19,8 +19,12 @@ class Builder:
         self.webhook = input(f'[{Fore.GREEN}FEATURE{Fore.RESET}] Discord Webhook URL: ')
         if not self.check_webhook(self.webhook):
             print(f"{Fore.RED}Invalid Webhook!{Fore.RESET}")
-            str(input(f"Press anything to exit..."))
             sys.exit()
+
+        self.testwebhook = input(f'[{Fore.GREEN}FEATURE{Fore.RESET}] Test Discord Webhook? (yes/no): ')
+        if self.testwebhook.lower() == 'y' or self.testwebhook.lower() == 'yes':
+            testwebhookdata = {"content":"Webhook is working."}
+            requests.post(self.webhook, json = testwebhookdata)
 
         self.filename = input(f'[{Fore.GREEN}FEATURE{Fore.RESET}] File Name: ')
 
