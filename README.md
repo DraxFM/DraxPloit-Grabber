@@ -43,7 +43,7 @@ Data Stealer written in **Python**
 
 ### Explanation
 **If you are new to exploiting, this might be in your interest**:  
-When running the "setup.bat" file, a black window opens. Don't worry, this is just normal procedure even though it may look malicious at first glance. There will be text popping up in white colors. The "setup.bat" file install all required librarys from "requirements.txt". Still, you mustn't delete the "requirements.txt" at all times. The builder still uses this file on execution!  
+When running the "setup.bat" file, a black window opens. Don't worry, this is just normal procedure even though it may look malicious at first glance. There will be text popping up in white colors. The "setup.bat" file installs all required libraries from "requirements.txt". Still, you mustn't delete the "requirements.txt" at all times. The builder still uses this file on execution!  
 The same with "start.bat". Creating a software which has actual UI is really hard and honestly I am too lazy to do that. So that is why you configure your file in a black window (as seen in the picture above).  
 You also might find the "upx.exe" file in the "upx" folder suspicious. But basically UPX (Ultimate Packager for Executables) is a well-known program. If you don't trust the one that's already in this repository feel free to install the original one from their own website and replace it with the already existing one.  
 
@@ -52,10 +52,11 @@ You also might find the "upx.exe" file in the "upx" folder suspicious. But basic
 A common problem lots of users have with this program is not caused by me or my program, it's caused by Python. When installing Python you have to select the option "Add python.exe to PATH". Unfortunately this box is **NOT** ticked by default. If you already have Python installed, there's still a way to avoid a reinstallation. You can look up a tutorial on how to manually extend the Python PATHS. But here is a short instruction:  
   
 1. Press windows key + R and type "sysdm.cpl" in the box that will pop up and press Enter.
-2. Go to the Tab "Advanced" and click on the "Enviroment variables" button in the bottom left of the window.
+2. Go to the Tab "Advanced" and click on the "Enviroment variables" button in the bottom right of the window.
 3. On the upper box you should see the "User environment variables". Press on "New".
-4. Name the new variable "Path" and paste in the following:  
-   C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\Scripts\
+4. Name the new variable "Path" and paste in the following:
+  
+C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\Scripts\
    
 5. Now replace every part called "YOUR_NAME_HERE", with the Windows user you are currently working with.
 6. Do not forget to press "OK"! Else you will need to redo everything!
