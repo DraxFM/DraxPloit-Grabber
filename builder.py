@@ -44,6 +44,7 @@ class Builder:
             self.compy = 'yes'
             self.icon = input(f'[{Fore.GREEN}FEATURE{Fore.RESET}] Add icon to exe? (yes/no): ')
             if self.icon.lower() == 'yes' or self.icon.lower() == 'y':
+                self.icon = 'yes'
                 self.icon_exe()
             else:
                 pass
