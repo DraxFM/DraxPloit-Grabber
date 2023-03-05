@@ -60,7 +60,7 @@ A common problem lots of users have with this program is not caused by me or my 
    
 5. Now replace every part called "YOUR_NAME_HERE", with the Windows user you are currently working with.
 6. Do not forget to press "OK"! Else you will need to redo everything!
-7. If you still have problems with DraxPloit Logger please join my Discord or add my user. You can find it in the "Authors" section.
+7. If you still have problems with DraxPloit Logger please join my Discord or add my user. You can find the needed information in the "Authors" section.
 
 ## Authors
 
