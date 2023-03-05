@@ -56,7 +56,7 @@ A common problem lots of users have with this program is not caused by me or my 
 3. On the upper box you should see the "User environment variables". Press on "New".
 4. Name the new variable "Path" and paste in the following:
   
-C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\Scripts\
+```C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\Scripts\```
    
 5. Now replace every part called "YOUR_NAME_HERE", with the Windows user you are currently working with.
 6. Do not forget to press "OK"! Else you will need to redo everything!
