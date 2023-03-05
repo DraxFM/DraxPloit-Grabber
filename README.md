@@ -11,7 +11,7 @@ Data Stealer written in **Python**
 - Grabs Discord Token
 - Roblox cookie stealer
 - Startup infection
-- [**NEW**] Default and custom fake error message
+- [**NEW**] Default and Custom fake error message
 - No popups in .exe file!
 - More to be added!
 
@@ -42,7 +42,7 @@ Data Stealer written in **Python**
 <img src="https://i.ibb.co/f4Twmvf/Screenshot-9.png" width="500" height=auto>
 
 ### Explanation
-If you are new to exploiting, this might be in your interest:  
+**If you are new to exploiting, this might be in your interest**:  
 When running the "setup.bat" file, a black window opens. Don't worry, this is just normal procedure even though it may look malicious at first glance.  
 The same with "start.bat". Creating a software which has actual UI is really hard and honestly, I am too lazy to do that so you configure your file in a black window (as seen in the picture above)  
 You also might find the "upx.exe" file in the "upx" folder suspicious. But basically UPX (Ultimate Packager for Executables) is a well-known program. If you don't trust the one that's already in this repositry feel free to install the original one from their own website and replace it with the already existing one.  
