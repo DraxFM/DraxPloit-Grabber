@@ -43,10 +43,10 @@ Data Stealer written in **Python**
 
 ### Explanation
 **If you are new to exploiting, this might be in your interest**:  
-When running the "setup.bat" file, a black window opens. Don't worry, this is just normal procedure even though it may look malicious at first glance. There will be text popping up in white colors. The "setup.bat" file installs all required libraries from "requirements.txt". Still, you mustn't delete the "requirements.txt" at all times. The builder still uses this file on execution!  
-The same with "start.bat". Creating a software which has actual UI is really hard and honestly I am too lazy to do that. So that is why you configure your file in a black window (as seen in the picture above).  
-You also might find the "upx.exe" file in the "upx" folder suspicious. But basically UPX (Ultimate Packager for Executables) is a well-known program. If you don't trust the one that's already in this repository feel free to install the original one from their own website and replace it with the already existing one.  
-Another thing is the compilation from .py to .exe. There will be files created in the folder and it may seem suspicious but this is needed to pack the Python file into one. There are tons of libraries that need to be packed, so give it time.  
+When running the "**setup.bat**" file, a black window opens. Don't worry, this is just normal procedure even though it may look *malicious* at first glance. There will be text popping up in white colors. The "**setup.bat**" file installs all required libraries from "**requirements.txt**". Still, you mustn't delete the "**requirements.txt**" at all times. The builder still uses this file on execution!  
+The same with "**start.bat**". Creating a software which has actual UI is really hard and honestly I am too lazy to do that. So that is why you configure your file in a black window (as seen in the picture above).  
+You also might find the "**upx.exe**" file in the "upx" folder suspicious. But basically UPX (***Ultimate Packager for Executables***) is a well-known program. If you don't trust the one that's already in this repository feel free to install the original one from their own website and replace it with the already existing one.  
+Another thing is the compilation from **.py** to **.exe**. There will be files created in the folder and it may seem suspicious but this is needed to pack the Python file into one. There are tons of libraries that need to be packed, so give it time.  
 
 ## Help
 
