@@ -111,6 +111,54 @@ class Builder:
         return True
 
     def load(self):
+        os.system('mode con:cols=120 lines=45')
+        banner = f"""{Fore.GREEN}
+                                                                                
+                                                                                
+                                                                                    
+                              .cddddddddddddddddddddc.                              
+                            .cdk0OO0OOOOOOOOOOOOOOOOkdc.                            
+                          .:dk0O00O0OOOOOOOOOOOOOOOOO0Odc.                          
+                        .:dk0O00OO0OOOOOOOOOOOOOOOOOO00OOdc.                     
+                      .:dOOOOOOOOOOOOOOO0OO00OOOOOOOO00OO0Odc.          DraxPloit Grabber v1.4         
+                    .:dO00OOOOOOOOOOOO0O0OOOOOOOOOOOO00O0O00Odc.        Data Stealer written in Python           
+                    ,k0O0OO00OO0OOO000000OOo:;,,,,ck00000OOOO0k,                    
+                    ,k0OOOO000000OOOOO00Oo;.       'cx000OOO00k,          
+                    ,kOOOOO0xc;;;;:d00Oo;.           'cx0OOO00k,                    
+                    ,k0O00xc'      .:dk;              .o00OO00k,          
+                    ,k0Oxc'          ck;              .o0OO000k,        https://www.github.com/DraxFM          
+                    ,k0Ol.           ck;             ':x0O00O0k,        https://www.github.com/DraxFM/DraxPloit-Grabber 
+                    .:oOl.           ck;           .:x00kolxO0k,          
+                    .'ckl.         .,oOl,'''''.  .:xOOO0x..lO0k,                    
+                  .'ckOOd,''''''''':lxOdllllll:':kOO00O0x. ,lxk,        Discord: Drax#5934          
+                  ;kO0OOOOOOOOOOkdc. ckl''''''ckOOOO00O0x. .,ok,        discord.gg/sEXECdC3Et     
+                  'lxOOO0OO0O0Odc.   cOOOOOOkOOOOOO0OOkdc. ckdl.                    
+                    'oxOO00O00d' ..  cOOO00O0O00OOOOkdl,. .lk,          News:         
+                      'oxO0OO0x,'ld;.lO0OO0OOO00O0kxl,,oo..lk,           - this banner was added         
+                        ,x0OO0OkkOOkkOOO0OOOOOOO00o..okOd..lk'           - here will be more in the future         
+                        .okO000OOOO0OO0OOOO0OO00Oxc..d00d..lk,                      
+                         .'okxxxxxxxxxxxxxxxxxxxl,. .dOko..lk,                      
+                           .....................;o:..od;. .lx,                      
+                          .cddc. :ddl. ,odo,  .lxOo. .,lc..lk' ,odddddddd:.         
+              ,ooooooooo; .dOOd..lO0k, :O0O:. 'k0Ol..:dkd'.lx' :kOOOOOOOOkd:.       
+            ,oxOOOOOOOOOc. .;dd..lOOx' :kOk:. 'xOOl..dx;'cl,.  ..''.'.':xOOkd:.     
+          ;oxOOkl'''''''.    ..  .''.  .'''.   .''. .dd..lx' 'lllllllll:,:xO0kd:.   
+        ,okOOkc,;clccccccc, .;;. ,cl:. 'clc'  .:ll,  .,:c,.  .'''',lO00xl:,:x00d.   
+       .o00kc,;cdO0Oo;,,,,. .dd..lO0k, :O0O:. 'k0Ol..;:;.        .cdOOOd;;:okO0d.   
+       .oO0Oo:;;oO0Odc'      .'  .,,'. .,,,.  .',,;::;'      ':ccdOo;,,;:ok00xc'    
+       .oOOO0Oo:;;oO00xc::'  ,:::::::::::::::::::::;'    '::cxO0Oo;;:::ok00xc'      
+        ':xO000Oo:;;;;lO00o. ';;;;;;;;;;;;;;;;;;;;'    'cx0000Oo;;:oO000Oxc;:,      
+        ';;cdO0O0Oo:;;;:lkxc;;'                   .,;;cx00Ol:::;:oO000Oxc;;;::;,    
+      ';::;;;cdO0OO0OOd:;:lk00kc;;,.          .,;;ck0000kl:;;;;dO0Odc:::;cko..od.   
+     .od..lkl,;cdO000OOOd:;:lk000Okl,,,.   .',lk0O0000kl:;:dOOOOOdc;,,,lk00o..okc'  
+     .dd..lO0kl,;cccdOO00Ox:,:cclxOOO0k;   ,xk0000xlcc:,;dO0O0Odc;,lO0OO0O0o..o00x' 
+    .:xd..lO00OOl,'';cdO00OOx:'',:ccclc.   .:ccllc:,'';xOOOdccc;,lOO0OO00ko; .o00x' 
+    dO0d..lOOO0OOOOk: ,k000OOOOOd.                .dOOOO00x'   :kOOOOOO0Ol.  .o00x' 
+{Fore.RESET}"""
+        print(banner)
+        sleep(7)
+        os.system('cls')
+        os.system('mode con:cols=90 lines=30')
         cprint(figlet_format("DraxPloit", font="standard", width = 100),
                "green", attrs=["bold"])
 
