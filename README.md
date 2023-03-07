@@ -17,7 +17,7 @@ Data Stealer written in **Python**
 - [:memo: Changelog](#Changelog)
 - [:exclamation: License](#License)
 
-## :trollface: || Features
+## <a id="Features"></a> :trollface: - Features
 
 - Builder (does all the coding for you)
 - Steals IP, City etc.
