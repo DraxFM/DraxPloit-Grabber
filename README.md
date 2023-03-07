@@ -6,7 +6,7 @@ Data Stealer written in **Python**
 
 ## Features
 
-- Builder (does all the coding for you)
+- :heavy_check_mark:Builder (does all the coding for you)
 - Steals IP, City etc.
 - Grabs Discord Token
 - Roblox Cookie stealer
