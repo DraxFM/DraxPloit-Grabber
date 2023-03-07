@@ -1,4 +1,4 @@
-# DraxPloit Grabber v1.4
+# DraxPloit Grabber v1.42
 
 Data Stealer written in **Python**
 
@@ -81,6 +81,7 @@ Inspiration to start with python exploiting: [**KSCHdsc**](https://github.com/KS
 
 ## Changelog
 
+03/07/2023: Fixed startup infection  
 03/06/2023: Added a banner to the program  
 03/05/2023: Added Device Name and Device User logging  
 03/05/2023: Big update: lots of bugfixes, UI changes, Fake error message system added  
