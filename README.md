@@ -8,14 +8,14 @@ Data Stealer written in **Python**
 
 ## Content :large_blue_circle:
 - [:trollface: Features](#features)
-- [:white_check_mark: Requirements](#Requirements)
-- [:hammer: Installing](#Installing)
-- [:toolbox: Usage](#Usage)
-- [:page_with_curl: Explanation](#Explanation)
-- [:question: Help](#Help)
-- [:shipit: Authors](#Authors)
-- [:memo: Changelog](#Changelog)
-- [:exclamation: License](#License)
+- [:white_check_mark: Requirements](#requirements)
+- [:hammer: Installing](#installing)
+- [:toolbox: Usage](#usage)
+- [:page_with_curl: Explanation](#explanation)
+- [:question: Help](#help)
+- [:shipit: Authors](#authors)
+- [:memo: Changelog](#changelog)
+- [:exclamation: License](#license)
 
 ## <a id="features"></a> :trollface: - Features
 
