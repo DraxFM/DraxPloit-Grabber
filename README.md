@@ -12,7 +12,7 @@ Data Stealer written in **Python**
 - [:hammer: - Installing](#installing)
 - [:toolbox:  - Usage](#usage)
 - [:page_with_curl: - Explanation](#explanation)
-- [:question: - Help](#help)
+- [:question:  - Help](#help)
 - [:wave: - Authors](#authors)
 - [:memo: - Changelog](#changelog)
 - [:exclamation: - License](#license)
