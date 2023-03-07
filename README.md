@@ -6,13 +6,13 @@ Data Stealer written in **Python**
 
 ## Features
 
-- :heavy_check_mark:Builder (does all the coding for you)
-- Steals IP, City etc.
-- Grabs Discord Token
-- Roblox Cookie stealer
-- Startup infection
-- [**NEW**] Default and Custom Fake Error message
-- No popups in .exe file!
+- Builder (does all the coding for you) :heavy_check_mark:
+- Steals IP, City etc. :heavy_check_mark:
+- Grabs Discord Token :heavy_check_mark:
+- Roblox Cookie stealer :heavy_check_mark:
+- Startup infection :heavy_check_mark:
+- [**NEW**] Default and Custom Fake Error message :heavy_check_mark:
+- No popups in .exe file! :heavy_check_mark:
 - More to be added!
 
 ### Requirements
