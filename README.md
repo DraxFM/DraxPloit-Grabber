@@ -7,7 +7,7 @@ Data Stealer written in **Python**
 #### :x: This program was made for educational purposes only. I do not condone or promote and illegal acts that can be reproduced with my program! :x:
 
 ## Content :large_blue_circle:
-- [:trollface: Features](#Features)
+- [:trollface: Features](#features)
 - [:white_check_mark: Requirements](#Requirements)
 - [:hammer: Installing](#Installing)
 - [:toolbox: Usage](#Usage)
@@ -17,7 +17,7 @@ Data Stealer written in **Python**
 - [:memo: Changelog](#Changelog)
 - [:exclamation: License](#License)
 
-## <a id="Features"></a> :trollface: - Features
+## <a id="features"></a> :trollface: - Features
 
 - Builder (does all the coding for you)
 - Steals IP, City etc.
