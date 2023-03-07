@@ -71,7 +71,7 @@ Another thing is the compilation from **.py** to **.exe**. There will be files c
 
 ### <a id="help"></a> :question: - Help
 
-### 1. Python allegedly "not found", Problems with PATH.
+#### 1. Python allegedly "not found", Problems with PATH.
 
 A common problem lots of users have with this program is not caused by me or my program, it's caused by Python. When installing Python you have to select the option "Add python.exe to PATH". Unfortunately this box is **NOT** ticked by default. If you already have Python installed, there's still a way to avoid a reinstallation. You can look up a tutorial on how to manually extend the Python PATHS. But here is a short instruction:  
 
