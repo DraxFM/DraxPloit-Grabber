@@ -69,7 +69,7 @@ Another thing is the compilation from **.py** to **.exe**. There will be files c
 
 ---
 
-## <a id="help"></a> :question: - Help
+### <a id="help"></a> :question: - Help
 
 ### 1. Python allegedly "not found", Problems with PATH.
 
