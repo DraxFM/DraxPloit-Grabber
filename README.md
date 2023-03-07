@@ -6,13 +6,24 @@ Data Stealer written in **Python**
 
 #### :x: This program was made for educational purposes only. I do not condone or promote and illegal acts that can be reproduced with my program! :x:
 
+## Content :large_blue_circle:
+- [:trollface: Features](#Features)
+- [:white_check_mark: Requirements](#Requirements)
+- [:hammer: Installing](#Installing)
+- [:toolbox: Usage](#Usage)
+- [:page_with_curl: Explanation](#Explanation)
+- [:question: Help](#Help)
+- [:shipit: Authors](#Authors)
+- [:memo: Changelog](#Changelog)
+- [:exclamation: License](#License)
+
 ## Features
 
 - Builder (does all the coding for you)
 - Steals IP, City etc.
-- Grabs Discord Token
-- Roblox Cookie stealer
-- Startup infection
+- Grabs Discord Token :key:
+- Roblox Cookie stealer :key:
+- Startup infection :syringe:
 - [**NEW**] Default and Custom Fake Error message
 - No popups in .exe file!
 - More to be added! :heavy_plus_sign:
