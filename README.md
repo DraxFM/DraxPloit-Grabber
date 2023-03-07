@@ -6,7 +6,7 @@ Data Stealer written in **Python**
 
 #### :x: This program was made for educational purposes only. I do not condone or promote any illegal acts that can be reproduced with my program! :x:
 
-## Content :large_blue_circle:
+## :large_blue_circle: - Content
 - [:100: Features](#features)
 - [:white_check_mark: Requirements](#requirements)
 - [:hammer: Installing](#installing)
