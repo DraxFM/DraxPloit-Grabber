@@ -10,7 +10,7 @@ Data Stealer written in **Python**
 - [:100: - Features](#features)
 - [:white_check_mark: - Requirements](#requirements)
 - [:hammer: - Installing](#installing)
-- [:toolbox: - Usage](#usage)
+- [:toolbox:  - Usage](#usage)
 - [:page_with_curl: - Explanation](#explanation)
 - [:question: - Help](#help)
 - [:wave: - Authors](#authors)
