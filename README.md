@@ -13,7 +13,7 @@ Data Stealer written in **Python**
 - [:toolbox: Usage](#usage)
 - [:page_with_curl: Explanation](#explanation)
 - [:question: Help](#help)
-- [:shipit: Authors](#authors)
+- [:wave: Authors](#authors)
 - [:memo: Changelog](#changelog)
 - [:exclamation: License](#license)
 
@@ -82,7 +82,7 @@ A common problem lots of users have with this program is not caused by me or my 
 
 This can obviously be a bug, if there is an error shown, please contact me so I can improve my software. Otherwise, your scripts (mostly the .exe's) won't work because of your antivirus. As my scripts are not 100% undetected antivirusses might think that you installed a virus (even though you created it) and break it/parts of it or even delete it. To fix this, simply turn off your Antivirus and then create your file or add the file as extension so it doesn't get locked.  
 
-## <a id="authors"></a> :shipit: - Authors
+## <a id="authors"></a> :wave: - Authors
 
 * [**Drax**](https://github.com/DraxFM) - *DraxPloit Grabber*
 
