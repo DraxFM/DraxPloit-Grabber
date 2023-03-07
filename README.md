@@ -19,12 +19,12 @@ Data Stealer written in **Python**
 
 ## <a id="features"></a> :100: - Features
 
-- Builder (does all the coding for you)
-- Steals IP, City etc.
+- Builder (does all the coding for you) :sparkles:
+- Steals IP, City etc. :round_pushpin:
 - Grabs Discord Token :key:
 - Roblox Cookie stealer :key:
 - Startup infection :syringe:
-- [**NEW**] Default and Custom Fake Error message
+- [**NEW**] Default and Custom Fake Error message :left_speech_bubble:
 - No popups in .exe file!
 - More to be added! :heavy_plus_sign:
 
