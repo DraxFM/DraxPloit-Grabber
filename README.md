@@ -71,20 +71,20 @@ Another thing is the compilation from **.py** to **.exe**. There will be files c
 
 ## <a id="help"></a> :question: - Help
 
-### 1. Python allegedly "not found", Problems with PATH.
+      ### 1. Python allegedly "not found", Problems with PATH.
 
-A common problem lots of users have with this program is not caused by me or my program, it's caused by Python. When installing Python you have to select the option "Add python.exe to PATH". Unfortunately this box is **NOT** ticked by default. If you already have Python installed, there's still a way to avoid a reinstallation. You can look up a tutorial on how to manually extend the Python PATHS. But here is a short instruction:  
-  
-1. Press windows key + R and type "sysdm.cpl" in the box that will pop up and press Enter.
-2. Go to the Tab "Advanced" and click on the "Enviroment variables" button in the bottom right of the window.
-3. On the upper box you should see the "User environment variables". Press on "New".
-4. Put "Path" as the name and switch to the second bar and paste in the following:
-  
-```C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\Scripts\```
-   
-5. Now replace every part called "YOUR_NAME_HERE", with the Windows user you are currently working with.
-6. Do not forget to press "OK"! Else you will need to redo everything!
-7. If you still have problems with DraxPloit Logger please join my Discord or add my user. You can find the needed information in the "Authors" section.
+      A common problem lots of users have with this program is not caused by me or my program, it's caused by Python. When installing Python you have to select the option "Add python.exe to PATH". Unfortunately this box is **NOT** ticked by default. If you already have Python installed, there's still a way to avoid a reinstallation. You can look up a tutorial on how to manually extend the Python PATHS. But here is a short instruction:  
+
+      1. Press windows key + R and type "sysdm.cpl" in the box that will pop up and press Enter.
+      2. Go to the Tab "Advanced" and click on the "Enviroment variables" button in the bottom right of the window.
+      3. On the upper box you should see the "User environment variables". Press on "New".
+      4. Put "Path" as the name and switch to the second bar and paste in the following:
+
+      ```C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\Scripts\```
+
+      5. Now replace every part called "YOUR_NAME_HERE", with the Windows user you are currently working with.
+      6. Do not forget to press "OK"! Else you will need to redo everything!
+      7. If you still have problems with DraxPloit Logger please join my Discord or add my user. You can find the needed information in the "Authors" section.
 
 ---
 
