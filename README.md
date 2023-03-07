@@ -4,6 +4,8 @@ Data Stealer written in **Python**
 
 *enjoy the script fuggas*
 
+#### This program was made for educational purposes only. I do not condone or promote and illegal acts that can be reproduced with my program! :x:
+
 ## Features
 
 - Builder (does all the coding for you)
