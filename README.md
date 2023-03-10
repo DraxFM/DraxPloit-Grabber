@@ -83,8 +83,10 @@ A common problem lots of users have with this program is not caused by me or my 
       ```C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\Scripts\```
 
 5. Now replace every part called "YOUR_NAME_HERE", with the Windows user you are currently working with.
-6. Do not forget to press "OK"! Else you will need to redo everything!
-7. If you still have problems with DraxPloit Logger please join my Discord or add my user. You can find the needed information in the "Authors" section.
+6. If you don't know your Windows user press windows key + R and type "cmd" in the box and press Enter. Now a black console will pop up. Type "whoami" and press Enter when everything's done loading. You will get your Device name and your current Device User seperated by a "\\". Example: desktop-rkd0n6c\john. In this case "john" would be the string you would have to replace with "YOUR_NAME_HERE".
+<img src="https://i.ibb.co/vZJLP3X/example-Con.png">
+8. Do not forget to press "OK"! Else you will need to redo everything!
+9. If you still have problems with DraxPloit Logger please join my Discord or add my user. You can find the needed information in the "Authors" section.
 
 ---
 
