@@ -78,7 +78,7 @@ A common problem lots of users have with this program is not caused by me or my 
 1. Press windows key + R and type "sysdm.cpl" in the box that will pop up and press Enter.
 2. Go to the Tab "Advanced" and click on the "Enviroment variables" button in the bottom right of the window.
 3. On the upper box you should see the "User environment variables". Press on "New".
-4. Put "Path" as the name and switch to the second bar and paste in the following:
+4. Put "Path" (case sensitive!) as the name and switch to the second bar and paste in the following:
 
       ```C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\YOUR_NAME_HERE\AppData\Local\Programs\Python\Python311\Scripts\```
 
