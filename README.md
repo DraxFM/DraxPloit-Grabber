@@ -32,7 +32,7 @@ Data Stealer written in **Python**
 
 ### <a id="requirements"></a> :white_check_mark: - Requirements
 
-* Newest [Python](https://www.python.org) version
+* Newest [Python](https://www.python.org) version (Version I use: [here](https://www.python.org/ftp/python/3.11.2/python-3.11.2-amd64.exe))
 * The code in this [Repository](https://github.com/DraxFM/DraxPloit-Grabber/archive/refs/heads/main.zip)
 
 ---
@@ -73,7 +73,7 @@ Another thing is the compilation from **.py** to **.exe**. There will be files c
 
 #### 1. Python allegedly "not found", Problems with PATH.
 
-A common problem lots of users have with this program is not caused by me or my program, it's caused by Python. When installing Python you have to select the option "Add python.exe to PATH". Unfortunately this box is **NOT** ticked by default. If you already have Python installed, there's still a way to avoid a reinstallation. You can look up a tutorial on how to manually extend the Python PATHS (click [here](https://geek-university.com/add-python-to-the-windows-path/)). But here is a short instruction:  
+A common problem lots of users have with this program is not caused by me or my program, it's caused by Python. Upon installing Python you have to select the option "Add python.exe to PATH". Unfortunately this box is **NOT** ticked by default. If you already have Python installed, there's still a way to avoid a reinstallation. You can look up a tutorial on how to manually extend the Python PATHS (click [here](https://geek-university.com/add-python-to-the-windows-path/)). But here is a short instruction:  
 
 1. Press windows key + R and type "sysdm.cpl" in the box that will pop up and press Enter.
 2. Go to the Tab "Advanced" and click on the "Enviroment variables" button in the bottom right of the window.
