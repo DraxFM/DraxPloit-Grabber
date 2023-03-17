@@ -4,7 +4,7 @@ Data Stealer written in **Python**
 
 *enjoy the script fuggas*
 
-#### :x: This program was made for educational purposes only. I do not condone or promote any illegal acts that can be reproduced with my program! :x:
+#### :x: This program was made for educational purposes only. I do not condone or promote any illegal behavior that can be reproduced with my program! :x:
 
 ## :large_blue_circle: - Content
 - [:100: - Features](#features)
