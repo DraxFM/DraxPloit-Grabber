@@ -120,7 +120,7 @@ class Builder:
                             .cdk0OO0OOOOOOOOOOOOOOOOkdc.                            
                           .:dk0O00O0OOOOOOOOOOOOOOOOO0Odc.                          
                         .:dk0O00OO0OOOOOOOOOOOOOOOOOO00OOdc.                     
-                      .:dOOOOOOOOOOOOOOO0OO00OOOOOOOO00OO0Odc.          DraxPloit Grabber v1.5         
+                      .:dOOOOOOOOOOOOOOO0OO00OOOOOOOO00OO0Odc.          DraxPloit Grabber v1.6         
                     .:dO00OOOOOOOOOOOO0O0OOOOOOOOOOOO00O0O00Odc.        Data Stealer written in Python           
                     ,k0O0OO00OO0OOO000000OOo:;,,,,ck00000OOOO0k,                    
                     ,k0OOOO000000OOOOO00Oo;.       'cx000OOO00k,          
