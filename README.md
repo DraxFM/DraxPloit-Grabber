@@ -1,4 +1,4 @@
-# DraxPloit Grabber v1.5
+# DraxPloit Grabber v1.6
 
 Data Stealer written in **Python**
 
@@ -106,6 +106,7 @@ This can obviously be a bug, if there is an error shown, please contact me so I 
 ## <a id="allfeatures"></a>All Features
 
 ```
+---Finished Features---
 Roblox cookies
 Discord token
 IP
@@ -120,6 +121,8 @@ Registered Mail
 Windows Product Key
 Windows Version
 Windows UUID
+---BETA Features---
+AP Grabbing
 ```
 
 ## <a id="authors"></a> :wave: - Authors
@@ -135,6 +138,7 @@ Inspiration to start with python exploiting: [**KSCHdsc**](https://github.com/KS
 ## <a id="changelog"></a> :memo: - Changelog
 
 ```
+06/09/2023: Big update, archive.zip added, AP (WLAN) profile grabbing (key steal coming soon)
 06/08/2023: Added Mail logging
 03/07/2023: Fixed startup infection  
 03/06/2023: Added a banner to the program  
