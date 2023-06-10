@@ -1,4 +1,4 @@
-# DraxPloit Grabber v1.6
+# DraxPloit Grabber v1.61
 
 Data Stealer written in **Python**
 
@@ -138,6 +138,7 @@ Inspiration to start with python exploiting: [**KSCHdsc**](https://github.com/KS
 ## <a id="changelog"></a> :memo: - Changelog
 
 ```
+06/10/2023: Added advanced startup infection
 06/09/2023: Big update, archive.zip added, AP (WLAN) profile grabbing (key steal coming soon)
 06/08/2023: Added Mail logging
 03/07/2023: Fixed startup infection  
