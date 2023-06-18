@@ -129,7 +129,7 @@ AP Grabbing
 
 * [**Drax**](https://github.com/DraxFM) - *DraxPloit Grabber*
 
-**Discord: [Drax#5934](https://discord.com/users/654343206275907585)**
+**Discord: [draxfm](https://discord.com/users/654343206275907585)**
 
 Need help? Join the [**Discord**](https://discord.gg/sEXECdC3Et)!
 
