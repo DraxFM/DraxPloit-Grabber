@@ -138,12 +138,12 @@ class Builder:
                     ,k0Ol.           ck;             ':x0O00O0k,        https://www.github.com/DraxFM/DraxPloit-Grabber 
                     .:oOl.           ck;           .:x00kolxO0k,          
                     .'ckl.         .,oOl,'''''.  .:xOOO0x..lO0k,                    
-                  .'ckOOd,''''''''':lxOdllllll:':kOO00O0x. ,lxk,        Discord: Drax#5934          
+                  .'ckOOd,''''''''':lxOdllllll:':kOO00O0x. ,lxk,        Discord: draxfm         
                   ;kO0OOOOOOOOOOkdc. ckl''''''ckOOOO00O0x. .,ok,        discord.gg/sEXECdC3Et     
                   'lxOOO0OO0O0Odc.   cOOOOOOkOOOOOO0OOkdc. ckdl.                    
                     'oxOO00O00d' ..  cOOO00O0O00OOOOkdl,. .lk,          News:         
-                      'oxO0OO0x,'ld;.lO0OO0OOO00O0kxl,,oo..lk,           - fixed startup infection         
-                        ,x0OO0OkkOOkkOOO0OOOOOOO00o..okOd..lk'           - this banner was added         
+                      'oxO0OO0x,'ld;.lO0OO0OOO00O0kxl,,oo..lk,           - Exploit discontinued         
+                        ,x0OO0OkkOOkkOOO0OOOOOOO00o..okOd..lk'           - bye
                         .okO000OOOO0OO0OOOO0OO00Oxc..d00d..lk,                      
                          .'okxxxxxxxxxxxxxxxxxxxl,. .dOko..lk,                      
                            .....................;o:..od;. .lx,                      
