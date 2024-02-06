@@ -143,7 +143,7 @@ class Builder:
                   'lxOOO0OO0O0Odc.   cOOOOOOkOOOOOO0OOkdc. ckdl.                    
                     'oxOO00O00d' ..  cOOO00O0O00OOOOkdl,. .lk,          News:         
                       'oxO0OO0x,'ld;.lO0OO0OOO00O0kxl,,oo..lk,           - Exploit discontinued         
-                        ,x0OO0OkkOOkkOOO0OOOOOOO00o..okOd..lk'           - bye
+                        ,x0OO0OkkOOkkOOO0OOOOOOO00o..okOd..lk'           
                         .okO000OOOO0OO0OOOO0OO00Oxc..d00d..lk,                      
                          .'okxxxxxxxxxxxxxxxxxxxl,. .dOko..lk,                      
                            .....................;o:..od;. .lx,                      
