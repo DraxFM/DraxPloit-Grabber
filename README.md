@@ -7,7 +7,7 @@ Data Stealer written in **Python**
 #### :x: This program was made for educational purposes only. I do not condone or promote any illegal behavior that can be reproduced with my program! :x:
 
 ## important stuff
-23/01/2024: Last update was approxiamtely half a year ago and this is due to the fact that the program is nothing like the competition. Yes, it still works but it is nothing compared to a grabber like empyrean. I have learned alot in the meantime and I do infact know how to script a Discord code injector and other new cool features but as this project never really got any attention I wouldn't know why I would put so much work into it.  
+23/01/2024: Last update was approximately half a year ago and this is due to the fact that the program is nothing like the competition. Yes, it still works but it is nothing compared to a grabber like empyrean. I have learned alot in the meantime and I do infact know how to script a Discord code injector and other new cool features but as this project never really got any attention I wouldn't know why I would put so much work into it.  
 I will leave this here incase I will overhaul it, though for now I'm not planning on doing that.  
 So for now, this is a goodbye!  
 06/02/2024: i forgor to say that i will still fix bugs and adjust description etc. my bad
