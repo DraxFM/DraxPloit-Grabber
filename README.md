@@ -1,10 +1,10 @@
-# DraxPloit Grabber v1.61
+# DraxPloit Grabber v1.61 **ARCHIVED**
 
 Data Stealer written in **Python**
 
 #### :x: This program was made for educational purposes only. I do not condone or promote any illegal behavior that can be reproduced with my program! :x:
 
-## important stuff
+## important stuff (READ)
 01/23/2024: Last update was approximately half a year ago and this is due to the fact that the program is nothing like the competition. Yes, it still works but it is nothing compared to a grabber like empyrean. I have learned alot in the meantime and I do infact know how to script a Discord code injector and other new cool features but as this project never really got any attention I wouldn't know why I would put so much work into it.  
 I will leave this here incase I will overhaul it, though for now I'm not planning on doing that.  
 So for now, this is a goodbye!  
